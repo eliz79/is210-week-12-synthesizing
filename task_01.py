@@ -27,7 +27,7 @@ class NumberError(BaseError, TypeError):
     pass
 
 
-class NoneZeroError(NumberError):
+class NonZeroError(NumberError):
     """An exception class.
         Attributes:
             None
